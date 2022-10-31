@@ -22,7 +22,7 @@ export const msalConfig = {
   };
   END OF MY CODE */
 
-  
+
 
   /*
  * Copyright (c) Microsoft Corporation. All rights reserved.
@@ -38,9 +38,9 @@ import { LogLevel } from "@azure/msal-browser";
  */
 export const msalConfig = {
     auth: {
-        clientId: "Enter_the_Application_Id_Here",
-        authority: "Enter_the_Cloud_Instance_Id_HereEnter_the_Tenant_Info_Here",
-        redirectUri: "Enter_the_Redirect_Uri_Here"
+        clientId: "0fa0f4ba-0a17-49d8-9b34-af21c6f13e4f",
+        authority: "https://login.microsoftonline.com/8ca7d6fe-6362-4396-8d91-9fcf7b2a133e",
+        redirectUri: "http://localhost:3000"
     },
     cache: {
         cacheLocation: "sessionStorage", // This configures where your cache will be stored
@@ -88,5 +88,5 @@ export const loginRequest = {
  * https://github.com/AzureAD/microsoft-authentication-library-for-js/blob/dev/lib/msal-browser/docs/resources-and-scopes.md
  */
 export const graphConfig = {
-    graphMeEndpoint: "Enter_the_Graph_Endpoint_Herev1.0/me"
+    graphMeEndpoint: "https://graph.microsoft.com"
 };
